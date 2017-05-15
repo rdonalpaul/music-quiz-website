@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+@import url('https://fonts.googleapis.com/css?family=Marcellus+SC');
+
+html{
+    background: Teal;   
+}
+
+
+header{
+    background: Crimson;
+    background-size: contain;
+    font-family: 'Rubik Mono One', serif, fantasy, monospace, cursive, sans-serif;
+    margin: 0em;
+    padding: 3em;
+}
+
+body{
+     font-family: 'Marcellus SC', serif, fantasy, monospace, cursive, sans-serif;
+     margin: 0em;
+     padding: 0em;
+}
+
+
+main {
+     padding: 1em;
+     border-style: solid;
+     border-width: 5px;
+     border-radius: 1em;
+     width: 70%;
+     margin-left:auto;
+     margin-right:auto;
+     background: white;
+}
+header > h1 { 
+    margin: 0em 0em 0em 0em;
+    font-size: 3em;
+    color: white;
+}
+header > p {
+    margin: 1em 1em 1em 1em;
+    font-size: 1em;
+    color: white;
+}
+main p {
+    font-weight: 600;
+}
+input{
+        
+       display: none;
+}
+
+label {
+    padding: 1em;
+    cursor: pointer;
+    font-weight: 100;
+    margin: auto;
+}
+
+
+input[type="submit"] {
+    padding:0.5em 0.5em;
+    width: 9em;
+    margin: 2em;
+    display: block;
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration: none;
+    margin: 0.5em;
+    color: white;
+    background: blue;
+    display: inline;
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+}
+
+main p{
+    font-size: 1.5em;
+} 

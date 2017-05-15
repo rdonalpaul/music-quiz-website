@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+@import url('https://fonts.googleapis.com/css?family=Marcellus+SC');
+
+header{
+    color: white;
+    background: Crimson;
+    background-image: url('images/red.jpg');
+    font-family: 'Rubik Mono One', serif, fantasy, monospace, cursive, sans-serif;
+    margin: 0em;
+    padding: 3em;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    margin: 0em;
+    background-color:  #1B6AA5;
+    background-image: url('images/blue.jpg');
+    font-size: 1em; 
+    font-family: "Marcellus SC", arial, sans-serif;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-size: 2em;
+}
+h2 > a{
+    font-size: 0.7em;
+    color: white;
+}
+
+
+table {
+    
+    background: white;
+    margin: auto;
+    max-width: 80%;
+    width: 100%;
+    border-collapse: collapse;
+  
+}
+ 
+th {
+
+    font-size:1.5em;
+    padding:1em;
+    background: #FBC723;
+    color:white;
+    text-align:left;
+    vertical-align:middle;
+}
+  
+td {
+    vertical-align:middle;
+    padding:3em;
+    background:#FFFFFF;
+    font-size:1.2em;
+    text-align:left;
+  
+}  
+tr:hover td {
+    background:#f7f7ba; 
+}
+ 
+
+

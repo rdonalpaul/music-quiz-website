@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+@import url('https://fonts.googleapis.com/css?family=Marcellus+SC');
+
+html{
+    background: Grey;
+    background-image: url('images/jd_bkgrnd.jpg');
+    
+}
+
+
+header{
+    background: DarkSlateGrey;
+    background-image: url('images/pexels-photo-57876-min.jpeg');
+    background-size: contain;
+    font-family: 'Rubik Mono One', serif, fantasy, monospace, cursive, sans-serif;
+    margin: 0em;
+    padding: 3em;
+}
+
+body{
+     font-family: 'Marcellus SC', serif, fantasy, monospace, cursive, sans-serif;
+     margin: 0em;
+     padding: 0em;
+}
+
+
+main {
+     padding: 1em;
+     border-style: solid;
+     border-width: 5px;
+     border-radius: 1em;
+     width: 70%;
+     margin-left:auto;
+     margin-right:auto;
+     background: white;
+}
+header > h1 { 
+    margin: 0em 0em 0em 0em;
+    font-size: 3em;
+    color: white;
+}
+header > p {
+    margin: 1em 1em 1em 1em;
+    font-size: 1em;
+    color: white;
+}
+main p {
+    font-weight: 600;
+}
+
+
+main label {
+    font-weight: 100;
+}
+
+.description{
+    font-weight: 100;
+}
+input[type="submit"] {
+    padding:0.5em 0.5em;
+    width: 9em;
+    margin: 2em;
+    display: block;
+    cursor: pointer;
+}
+
+
+main label {
+    margin: 0em;
+    display: block;
+    color: white;
+    background: DarkSlateGrey;
+    display: inline-block;
+    padding: 0.7em 2em;
+    cursor: pointer;
+}
+
+input[type=radio]:checked+label {
+    background: Grey;
+}
+
+
+
+input{
+        
+       display: none;
+}
+
+input[type=radio] +label {
+    width: 60%;
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.question{
+    padding: 2em 1em 0em 0em;
+}
+
+
+.results{
+    text-align: left;
+    font-size: 2em;
+    margin-top: 0.5em;
+    
+}
+
+section {
+     padding: 1em;
+     border-style: solid;
+     border-width: 5px;
+     border-radius: 1em;
+     width: 70%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 1em;
+     margin-bottom: 1em;
+     background: white;
+}    
+fieldset{
+    border: solid;
+    margin: 1%;
+    display: block;
+    border-radius: 1em;
+    
+}
+
+legend {
+  padding: 0.2em 0.5em;
+  border-bottom: solid;
+  border-radius: 2em;
+  font-size:1.5em;
+  font-size:1.5em;
+  text-align:left;
+}
+#username{
+    display: block;
+    margin: 1em;
+    width: 30%;
+}
+
+#new_comment{
+    display: block;
+    margin: 1em;
+    width: 50%;
+    resize: none;
+}
+
+
+
+#comments {
+     padding: 1em;
+     border-style: solid;
+     border-width: 5px;
+     border-radius: 1em;
+     width: 70%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 1em;
+     margin-bottom: 1em;
+     background: white;
+}
+
+#comments p{
+    border-bottom: solid;
+    border-color: black;
+}
+
+a{
+    text-decoration: none;
+    margin: 0.5em;
+    color: white;
+    background: black;
+    display: inline;
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+}
+#finalResult{
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    
+}
